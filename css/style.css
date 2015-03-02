@@ -1,0 +1,281 @@
+
+
+/* To Navigation Style */
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+
+/* SECTIONS */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+/* TEXT */
+h1{
+  font-weight:lighter;
+}
+
+.landing_page .large-header {
+	background: whitesmoke;
+}
+
+.landing_page .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: black;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.arrow{
+	font-size: 80px;
+	position: relative;
+	top: -160px;
+	z-index: 1000;
+	display: block !important;
+	margin: 0 auto;
+}
+
+.arrow:hover{
+  opacity: .7;
+}
+
+
+/* FONTS  */
+
+a {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #34495e;
+}
+
+
+/* PICK A SIDE */
+
+.show_overlay{
+	background: red;
+	position:relative;
+	z-index: 1000000000;
+}
+
+.pick{
+	font-size: 40px;
+	position: relative;
+	padding: 30px;
+}
+
+.center{
+  text-align:center;
+}
+
+.leftarrow {
+  position: relative;
+  left: -45px;
+}
+
+.rightarrow{
+  font-size: 25px;
+  position: relative;
+  top: 20px;
+  left: -40px;
+}
+
+.letsgoleft{
+  width: 130px;
+  font-size: 25px;
+  position: relative;
+  top: 25px;
+  left: 27px;
+}
+
+.letsgoright{
+  width: 100%;
+  text-align: right;
+  position: relative;
+  float: right;
+}
+
+.letsgolefttext{
+  position: relative;
+  top: 25px;
+  left: 35px;
+  color:whitesmoke;
+}
+
+.letsgorighttext{
+  font-size: 25px;
+  position: relative;
+  right: 75px;
+  top: 25px;
+}
+
+.leftbox{
+  padding: 70px;
+  background-color: grey;
+  height:480px;
+}
+
+.leftbox:hover{
+  opacity: .7;
+}
+
+.rightbox{
+  padding: 70px;
+  background-color: whitesmoke;
+  height:480px;
+}
+
+.rightbox:hover{
+  opacity: .7;
+  background-color: lightgray;
+}
+
+.rightbox:hover{
+  opacity: .7;
+}
+
+ul{
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+
+
+.braintext{
+  position:relative;
+  top: -40px;
+  padding-top: 30px;
+}
+
+.braintextleft{
+  position:relative;
+  top: -40px;
+  color:whitesmoke;
+  padding-top: 30px;
+}
+
+.landing_page .main-title {
+	padding: 10px 40px;
+	border: 10px double black;
+	text-transform: uppercase;
+
+}
+
+.letsgospacing {
+  background: rgb(255, 73, 67);
+  width: 90%;
+  float: right;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.neuroscience {
+  background: #1e1e1e;
+  width: 90%;
+  float: left;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.code {
+  background: darkgrey;
+  width: 70%;
+  float: left;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.design {
+  background: #545e6b;
+  width: 50%;
+  float: left;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.music {
+  background: rgb(255, 73, 67);
+  width: 90%;
+  float: right;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.art {
+  background: #433b4e;
+  width: 50%;
+  float: right;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.creative {
+  background: rgb(3, 182, 202);
+  width: 70%;
+  float: right;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.right-link{
+  position: relative;
+  top: -63px;
+  left: -120px;
+  font-size: 39px;
+}
+
+.demo-4 .main-title {
+	font-size: 6em;
+	font-weight: 300;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+/* MOBILE STUFF */
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title, 
+	.landing_page .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
+
