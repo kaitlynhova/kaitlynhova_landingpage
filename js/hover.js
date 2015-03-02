@@ -2,13 +2,13 @@
 $( document ).ready(function() {
   $("#leftbox").hover(function(){
     $("#left-overlay").addClass('left-overlay');
-    $(".left-text").css('display', 'none');
+    $(".left-text").css'opacity', '.5');
     $("#left-overlay-text").removeClass('no-show');
     $('.braintextleft').css('top','-35px');
   });
   $("#leftbox").mouseleave(function(){
     $("#left-overlay").removeClass('left-overlay');
-    $(".left-text").css('display', 'block');
+    $(".left-text").css('opacity', '1');
     $("#left-overlay-text").addClass('no-show');
     $('.braintextleft').css('top','-40px');
   });
