@@ -90,12 +90,31 @@ a:hover, a:focus {
 	top: 75px;
 }
 
+.right-text{
+	transition: 2s;
+}
+
+.right-overlay{
+	height: 480px;
+	background: whitesmoke;
+	position: relative;
+	top: -70px;
+	padding-top: 65px;
+}
+
+#right-overlay-text{
+	color: #566473;
+	font-size: 40px;
+	position: relative;
+	top: 75px;
+}
+
 .leftbox:hover{
 	opacity:.7;
 }
 
 .no-show{
-	display:none;
+	display: none;
 }
 
 .show_overlay{
