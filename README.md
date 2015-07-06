@@ -2,3 +2,5 @@
 Includes
 - sweet exploding triangle jquery effect
 - Right/Left Brain bars areas
+
+[live link](http://kaitlynhova.github.io/kaitlynhova_landingpage/)
